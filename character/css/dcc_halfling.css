@@ -1,0 +1,273 @@
+/*
+Dungeon Crawl Classics Halfling Character Class Random Generator
+Designed by Mark Tasaka 2017
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#character_sheet{
+	width: 950px;
+    height: auto;
+	display: block;
+}
+
+#name{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+	font-size: 1.2em;
+}
+
+#occupation{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+	font-size: 0.9em;
+}
+
+
+#title{
+    position: absolute;
+    top: 300px;
+    left: 220px;
+	font-size: 1.2em;
+}
+
+#level{
+    position: absolute;
+    top: 300px;
+    left: 85px;
+	font-size: 1.2em;
+}
+
+#strength{
+    position:absolute;
+    top: 270px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 270px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+
+#agility{
+    position:absolute;
+    top: 313px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 313px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 356px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 356px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 399px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 399px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 442px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 442px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+#luck{
+    position:absolute;
+    top: 485px;
+    left: 790px;
+	font-size: 1.6em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 485px;
+    left: 860px;
+	font-size: 1.6em;
+}
+
+
+#baseArmourClass{
+    position: absolute;
+    top: 410px;
+    left: 175px;
+	font-size: 2em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 430px;
+    left: 465px;
+	font-size: 1.8em;
+}
+
+
+#init{
+    position: absolute;
+    top: 550px;
+    left:  530px;
+	font-size: 1.6em;
+}
+
+
+
+#speed{
+    position: absolute;
+    top: 590px;
+    left:  530px;
+	font-size: 1.6em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 630px;
+    left:  530px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 670px;
+    left:  530px;
+	font-size: 1.6em;
+}
+
+
+#actionDie{
+    position: absolute;
+    top: 560px;
+    left:  790px;
+	font-size: 1em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 600px;
+    left:  790px;
+	font-size: 1em;
+}
+
+#critTable{
+    position: absolute;
+    top: 595px;
+    left:  876px;
+	font-family: serif;
+	font-size: 1.3em;
+}
+
+#hide{
+    position: absolute;
+    top: 650px;
+    left:  835px;
+	font-size: 1.3em;
+}
+
+
+#fumbleDie{
+    position: absolute;
+    top: 685px;
+    left:  835px;
+	font-size: 1.3em;
+}
+
+
+#luckySignDescription{
+    position: absolute;
+    top: 755px;
+    left: 610px;
+	font-size: 0.65em;
+	width: 300px;
+}
+
+
+
+#zeroWeapon{
+    position: absolute;
+    top: 857px;
+    left: 610px;
+	font-size: 0.75em;
+}
+
+#ref{
+    position: absolute;
+    top: 740px;
+    left:  505px;
+	font-size: 1.6em;
+}
+
+#fort{
+    position: absolute;
+    top: 782px;
+    left:  505px;
+	font-size: 1.6em;
+}
+
+#will{
+    position: absolute;
+    top: 826px;
+    left:  505px;
+	font-size: 1.6em;
+}
+
+
+#languages{
+    position: absolute;
+    top: 1170px;
+    left: 75px;
+	font-size: 0.6em;
+	width: 420px;
+}
+
